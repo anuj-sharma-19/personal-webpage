@@ -10,8 +10,10 @@
     {{ career-profile.title }}
   </h2>
 
-  <div class="career-summary">
-    <ul>{{ career-profile.summary | markdownify }}</ul>
+  <div class="career-summary" style="text-align: justify">
+    <ul>
+      {{ career-profile.summary | markdownify }}
+    </ul>
   </div><!--//summary-->
     
 </section><!--//section-->

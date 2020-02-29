@@ -30,7 +30,7 @@ p {
 
 .wrapper {
     background:$theme-color;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
@@ -119,11 +119,13 @@ p {
             font-weight: 500;
             margin-bottom: 0px;
             margin-top: 0;
+            font-family: 'Times New Roman', sans-serif;
         }
         .time {
             color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
+            font-family: 'Times New Roman', sans-serif;
         }
     }
     .languages-container {
@@ -163,13 +165,14 @@ p {
         //font-weight: 500;
         font-weight: bold;
         //color: darken($theme-color, 15%);
-        color: darken(#33A2FF, 15%);
+        //color: darken(#33A2FF, 15%);
+        color: darken(#797B7C, 15%);
         position: relative;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .career-summary {
@@ -181,14 +184,33 @@ p {
 
     .experiences-section, .educations-section {
         .item {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
             margin-left: 15px;
+        }
+        .meta {
+            margin-bottom: -10px;
+        }
+        .work {
+            margin-top: 5px;
+            margin-left: 100px;
+            font-size: 16px;
+        }
+        .time {
+            font-size: 15px;
+        }
+        .company {
+            margin-bottom: -5px;
+        }
+        .company-news {
+            margin-top: 10px;
+            margin-left: 100px;
+            font-size: 16px;
         }
     }
     .upper-row {
         position: relative;
         overflow: hidden;
-        margin-bottom: 2px;
+        margin-bottom: 0px;
     }
     .job-title, .degree {
         color: $text-color;
@@ -245,18 +267,18 @@ p {
         font-size: 16px;
         font-weight: bold;
         color: $text-color;
-        margin-bottom: 1px;
+        margin-bottom: -10px;
     }
     .publication-authors {
         font-size: 16px;
         font-style: italic;
         color: $text-grey;
-        margin-bottom: 1px;
+        margin-bottom: -10px;
     }
     .publication-conference {
         font-size: 16px;
         color: $text-color;
-        margin-bottom: 1px;
+        margin-bottom: -10px;
     }
     .publication-links {
         font-size: 16px;
@@ -289,7 +311,7 @@ p {
     .distinctions-section {
         .item {
             font-size: 16px;
-            margin-bottom: 15px;
+            margin-bottom: -10px;
             margin-left: 15px;
         }
     }
@@ -298,13 +320,13 @@ p {
         font-size: 16px;
         font-weight: bold;
         color: $text-color;
-        margin-bottom: 1px;
+        margin-bottom: -10px;
     }
     .thesis-supervisor {
         font-size: 16px;
         font-weight: 400;
         color: $text-color;
-        margin-bottom: 1px;
+        margin-bottom: -10px;
     }
     .theses-section {
         .item {

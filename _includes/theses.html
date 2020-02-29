@@ -4,14 +4,13 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-book fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
     </span>
     Thesis and Reports
   </h2>
 
   {% for report in theses %}
   <div class="item">
-
     <ul>
       <li>
         <div class="thesis-title">
@@ -25,10 +24,17 @@
       </div>
     </ul>
     <ul>
-      <a href="{{ site.baseurl }}/assets/theses/{{ report.link }}"> [Paper] </a>
-      <a href="{{ site.baseurl }}/assets/theses/{{ report.slides }}"> [Slides] </a>
+      <a href="{{ site.baseurl }}/assets/theses/{{ report.link }}">
+        <span style="color: brown;">
+          <u>[Paper]</u>
+        </span>
+      </a>
+      <a href="{{ site.baseurl }}/assets/theses/{{ report.slides }}">
+        <span style="color: brown;">
+          <u>[Slides]</u>
+        </span>
+      </a>
     </ul>
-
   </div><!--//item-->
   {% endfor %}
 

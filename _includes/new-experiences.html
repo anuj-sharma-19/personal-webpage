@@ -11,11 +11,14 @@
 
   {% for experience in new-experiences %}
   <div class="item">
-
     <ul>
       <li>
         <div class="company">
-          {{ experience.company }}
+          <u>
+            <a href="{{ experience.link }}">
+              <span style="color: brown; ">{{ experience.company }}</span>
+            </a>
+          </u>
         </div>
       </li>
     </ul>
@@ -28,9 +31,14 @@
     </div><!--//meta-->
 
     {% endfor %}
-    <div class="job-details">
+    <div class="work" style="text-align: justify">
       {{ experience.work }}
     </div>
+    {% if %experience.news %}
+    <div class="company-news" style="text-align: justify">
+      <b><i>News</i></b>: {{ experience.news }}
+    </div>
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 

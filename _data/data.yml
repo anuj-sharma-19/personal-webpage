@@ -31,9 +31,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently working as a Senior Research Engineer in Machine Learning at [FiveAI](https://five.ai/), with my
-      work primarily focussed on applying deep learning and computer vision techniques for perception on autonomous
-      vehicles. Prior to joining FiveAI, I visited [Torr Vision Group (University of Oxford)](http://www.robots.ox.ac.uk/~tvg/)
+      I am currently working as a Senior Research Engineer in Machine Learning and Computer Vision at
+      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u>, where we are building the
+      software to autonomously drive vehicles. Here, my work is primarily focussed on applying deep learning and
+      computer vision techniques for scene perception on autonomous vehicles. Prior to joining FiveAI, I visited the
+      <u><a href="http://www.robots.ox.ac.uk/~tvg/"><span style="color: brown; ">Torr Vision Group (University of Oxford)</span></a></u>
       for my Masters Thesis.
 
 research-interests:
@@ -47,7 +49,8 @@ education:
         Describe
           - Bullet
     - degree: <a href="https://www.universite-paris-saclay.fr/en/formation/master/electrical-engineering/m2-smart-aerospace-and-autonomous-systems"> Masters in Smart Aerospace and Autonomous Systems </a>
-      university: <a href="https://www.universite-paris-saclay.fr/en"> University of Paris-Saclay, Paris, France </a>
+      university: <a href="https://www.univ-evry.fr/en/welcome-page.html">Université d'Évry Val-d'Essonne</a> and
+                  <a href="https://www.universite-paris-saclay.fr/en"> University of Paris-Saclay, Paris, France </a>
       time: September 2016 - September 2017
       details: |
         Describe
@@ -60,7 +63,8 @@ education:
           - Bullet
 
 new-experiences:
-    - company: <a href="http://five.ai"> FiveAI, Cambridge, UK </a>
+    - company: FiveAI, Cambridge, UK
+      link: "http://five.ai"
       positions:
         - role: Senior Research Engineer
           time: January 2020 - present
@@ -69,28 +73,43 @@ new-experiences:
         - role: Research Intern
           time: December 2017 - June 2018
       work: Working on machine learning algorithms applied to perception for autonomous driving vehicles.
+      news: FiveAI recently carried out
+            <u><a href="https://trl.co.uk/news/news/streetwise-launches-uk%E2%80%99s-most-technically-advanced-commuter-research-trials-self-driving">
+            <span style="color:brown;">StreetWise</font></a></u> Trials - public road demonstration of its autonomous
+            vehicle on selected routes in London - to much press comment.
 
-    - company: <a href="https://www.drdo.gov.in/labs-and-establishments/aerial-delivery-research-and-development-establishment-adrde"> Aerial Delivery Research and Development Establishment (ADRDE), India </a>
+    - company: Aerial Delivery Research and Development Establishment (ADRDE), India
+      link: "https://www.drdo.gov.in/labs-and-establishments/aerial-delivery-research-and-development-establishment-adrde"
       positions:
-        - role: Scientist-C
+        - role: Scientist 'C'
           time: July 2013 - August 2016
-        - role: Scientist-B
+        - role: Scientist 'B'
           time: December 2009 - June 2013
-      work: Primarily worked on dynamic modeling of unmanned aerial vehicles.
+      work: Carried out aerodynamics design, 6-DOF (degree of freedom) dynamic modeling of unmanned aerial vehicles,
+            static and dynamic stability studies, development of flight control laws and in-depth analysis of post
+            flight data.
 
-    - company: <a href="http://www.iitk.ac.in/"> Indian Institute of Technology Kanpur, India </a>
+    - company: Indian Institute of Technology Kanpur, India
+      link: "http://www.iitk.ac.in/"
       positions:
         - role: Project Associate
           time: June 2009 - November 2009
-      work: Developed algorithms for attitude determination and control of the nano-satellite (called <a href="http://www.iitk.ac.in/meold/jugnu/index.htm">JUGNU</a>) developed by IIT-Kanpur
+      work: Developed algorithms for attitude determination and control of the nano-satellite
+            (called <u><a href="http://www.iitk.ac.in/meold/jugnu/index.htm"><span style="color:brown;">JUGNU</span></a></u>)
+            developed by IIT-Kanpur.
+      news: JUGNU was successfully
+            <u><a href="https://en.wikipedia.org/wiki/Jugnu_(satellite)">
+            <span style="color:brown; ">launched in October, 2011</span></a></u>.
 
 theses:
     - title: Understanding Future Motion of Agents in Dynamic Scene using Deep Learning (Masters Thesis)
-      supervisors: <a href="http://www.robots.ox.ac.uk/~phst/">Prof Philip Torr</a>, <a href="https://puneetkdokania.github.io/">Dr. Puneet K Dokania</a>, University of Oxford
+      supervisors: <u><a href="http://www.robots.ox.ac.uk/~phst/"><span style="color:brown;">Prof Philip Torr</span></a></u>,
+       <u><a href="https://puneetkdokania.github.io/"><span style="color:brown;">Dr. Puneet K Dokania</span></a></u>, University of Oxford
       link: "Masters/Masters-Thesis.pdf"
       slides: "Masters-Thesis-Presentation.pdf"
     - title: GAGAN - GPS Aided GEO Augmented Navigation (Bachelors Thesis)
-      supervisors: <a href="http://people.iiti.ac.in/~hbhablani/">Prof Hari B Hablani</a>, Indian Institute of Technology - Indore, India
+      supervisors: <u><a href="http://people.iiti.ac.in/~hbhablani/"><span style="color:brown;">Prof Hari B Hablani</span></a></u>,
+                   Indian Institute of Technology - Indore, India
       link: "Bachelors/BTech-Thesis.pdf"
       slides: "Bachelors/BTech-Thesis-Presentation.pdf"
         
@@ -117,15 +136,27 @@ distinctions:
     awards:
       - title: Scholarships from University of Oxford and University of Paris-Saclay for my Masters Thesis in 2017
 
-      - title: Academic Excellence Award by Université d'Évry Val-d'Essonne for securing 1<sup>st</sup> position in Masters in 2017
+      - title: Academic Excellence Award by
+               <u><a href="https://www.univ-evry.fr/en/welcome-page.html">
+               <span style="color:brown;">Université d'Évry Val-d'Essonne</span></a></u>
+               for securing 1<sup>st</sup> position in Masters in 2017
 
-      - title: President’s Gold medal at IIT-Kanpur, India in 2009 for achieving 1<sup>st</sup> rank in B.Tech Aerospace Engineering
+      - title: President’s Gold medal at
+               <u><a href="http://www.iitk.ac.in/"><span style="color:brown;">IIT-Kanpur</span></a></u>, India in 2009
+               for achieving 1<sup>st</sup> rank in B.Tech Aerospace Engineering
 
-      - title: Selected in <a href="https://olympiads.hbcse.tifr.res.in/olympiads-2019-20/mathematical-olympiad/"> Indian National Mathematics Olympiad </a> 2004 (19<sup>th</sup> rank)
+      - title: Selected in
+               <u><a href="https://olympiads.hbcse.tifr.res.in/olympiads-2019-20/mathematical-olympiad/">
+               <span style="color:brown">Indian National Mathematics Olympiad</span></a></u>, 2004 (19<sup>th</sup> rank)
 
-      - title: Attended Mathematics Orientation camp at <a href="http://www.hbcse.tifr.res.in/"> Homi Bhabha Centre for Science Education (HBCSE), India </a> in 2004 and 2005
+      - title: Attended Mathematics Orientation camp at
+               <u><a href="http://www.hbcse.tifr.res.in/">
+               <span style="color:brown;">Homi Bhabha Centre for Science Education (HBCSE)</span></a></u>,
+               India in 2004 and 2005
 
-      - title: Selected amongst top 6 students from Mathematics camp (at HBCSE) to attend Mathematics Nurture Program at <a href="https://www.isical.ac.in/"> Indian Statistical Institute, Kolkata </a> in 2006
+      - title: Selected amongst top 6 students from Mathematics camp (at HBCSE) to attend Mathematics Nurture Program at
+               <u><a href="https://www.isical.ac.in/">
+               <span style="color:brown;">Indian Statistical Institute Kolkata</span></a></u>, India in 2006
 
 #skills:
 #    title: Skills &amp; Proficiency

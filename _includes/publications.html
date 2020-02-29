@@ -35,14 +35,26 @@
     <ul>
       <div class="publication-conference">
         <a href="{{ publication.conf-link}}">
-          {{ publication.conference }}
+          <u>
+            <span style="color: brown;">
+              {{ publication.conference }}
+            </span>
+          </u>
         </a>
       </div>
     </ul>
     <div class="publication-links">
       <ul>
-        <a href="{{ site.baseurl }}/assets/theses/{{ publication.link }}"> [Paper] </a>
-        <a href="{{ site.baseurl }}/assets/theses/{{ publication.slides }}"> [Slides] </a>
+        <a href="{{ site.baseurl }}/assets/theses/{{ publication.link }}">
+          <span style="color: brown;">
+            <u>[Paper]</u>
+          </span>
+        </a>
+        <a href="{{ site.baseurl }}/assets/theses/{{ publication.slides }}">
+          <span style="color: brown;">
+            <u>[Slides]</u>
+          </span>
+        </a>
       </ul>
     </div>
   </div><!--//item-->

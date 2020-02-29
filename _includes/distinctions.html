@@ -11,8 +11,12 @@
   </h2>
 
   {% for award in distinctions.awards %}
-  <div class="item">
-    <ul><li>{{ award.title }}</li></ul>
+  <div class="item" style="text-align: justify">
+    <ul>
+      <li>
+        {{ award.title }}
+      </li>
+    </ul>
   </div><!--//item-->
   {% endfor %}
 
