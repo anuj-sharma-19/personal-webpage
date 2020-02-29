@@ -1,0 +1,36 @@
+{% assign theses = site.data.data.theses %}
+{% if theses %}
+<section class="section theses-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-book fa-stack-1x fa-inverse"></i>
+    </span>
+    Thesis and Reports
+  </h2>
+
+  {% for report in theses %}
+  <div class="item">
+
+    <ul>
+      <li>
+        <div class="thesis-title">
+          {{ report.title }}
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <div class="thesis-supervisor">
+        Supervisors: {{ report.supervisors }}
+      </div>
+    </ul>
+    <ul>
+      <a href="{{ site.baseurl }}/assets/theses/{{ report.link }}"> [Paper] </a>
+      <a href="{{ site.baseurl }}/assets/theses/{{ report.slides }}"> [Slides] </a>
+    </ul>
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

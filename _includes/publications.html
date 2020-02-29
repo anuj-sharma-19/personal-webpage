@@ -19,12 +19,32 @@
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <ul>
+        <li>
+          <div class="publication-paper-title"> {{ publication.title }}</div>
+        </li>
+      </ul>
     {% else %}
-      <li>{{ publication.title }}</li>
+    <a href="">paper</a>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+    <ul>
+      <div class="publication-authors">
+        {{ publication.authors }}
+      </div>
+    </ul>
+    <ul>
+      <div class="publication-conference">
+        <a href="{{ publication.conf-link}}">
+          {{ publication.conference }}
+        </a>
+      </div>
+    </ul>
+    <div class="publication-links">
+      <ul>
+        <a href="{{ site.baseurl }}/assets/theses/{{ publication.link }}"> [Paper] </a>
+        <a href="{{ site.baseurl }}/assets/theses/{{ publication.slides }}"> [Slides] </a>
+      </ul>
+    </div>
   </div><!--//item-->
   {% endfor %}
 

@@ -15,17 +15,17 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <ul><h3 class="job-title">{{ experience.role }}</h3></ul>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <ul><div class="company">{{ experience.company }}</div></ul>
 
     </div><!--//meta-->
 
     {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+      <ul>{{ experience.details | markdownify }}</ul>
     </div><!--//details-->
     {% endif %}
 

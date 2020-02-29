@@ -1,0 +1,20 @@
+{% assign distinctions = site.data.data.distinctions %}
+{% if distinctions %}
+<section class="section distinctions-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-medal fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ distinctions.title }}
+  </h2>
+
+  {% for award in distinctions.awards %}
+  <div class="item">
+    <ul><li>{{ award.title }}</li></ul>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

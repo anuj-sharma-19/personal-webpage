@@ -10,8 +10,8 @@
     {{ career-profile.title }}
   </h2>
 
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
+  <div class="career-summary">
+    <ul>{{ career-profile.summary | markdownify }}</ul>
   </div><!--//summary-->
     
 </section><!--//section-->
