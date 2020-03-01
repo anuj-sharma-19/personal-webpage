@@ -134,7 +134,9 @@ publications:
 distinctions:
     title: Awards and Honours
     awards:
-      - title: Scholarships from University of Oxford and University of Paris-Saclay for my Masters Thesis in 2017
+      - title: Scholarships from University of Oxford and
+               <u><a href="https://www.universite-paris-saclay.fr/admission/bourses-et-aides-financieres/bourse-de-stages-letranger"
+               <span style="color:brown;">University of Paris-Saclay</span></a></u> for my Masters Thesis in 2017
 
       - title: Academic Excellence Award by
                <u><a href="https://www.univ-evry.fr/en/welcome-page.html">
