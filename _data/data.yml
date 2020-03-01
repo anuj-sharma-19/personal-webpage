@@ -106,12 +106,12 @@ theses:
       supervisors: <u><a href="http://www.robots.ox.ac.uk/~phst/"><span style="color:brown;">Prof Philip Torr</span></a></u>,
        <u><a href="https://puneetkdokania.github.io/"><span style="color:brown;">Dr. Puneet K Dokania</span></a></u>, University of Oxford
       link: "Masters/Masters-Thesis.pdf"
-      slides: "Masters-Thesis-Presentation.pdf"
+      slides: "Masters/Masters-Thesis-Presentation.pdf"
     - title: GAGAN - GPS Aided GEO Augmented Navigation (Bachelors Thesis)
       supervisors: <u><a href="http://people.iiti.ac.in/~hbhablani/"><span style="color:brown;">Prof Hari B Hablani</span></a></u>,
                    Indian Institute of Technology - Indore, India
       link: "Bachelors/BTech-Thesis.pdf"
-      slides: "Bachelors/BTech-Thesis-Presentation.pdf"
+      slides: "Bachelors/BTech-Thesis-Presentation.ppt"
         
 publications:
     title: Publications
