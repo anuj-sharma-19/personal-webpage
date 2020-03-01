@@ -123,13 +123,17 @@ publications:
         conference: SAROD Conference, India, November, 2013 (Oral), Bangalore, India.
         conf-link: "http://www.hypersonic-cfd.com/files/sarod-2013.pdf"
 
+      - title: GPS-INS Integration for Autonomous Navigation of Aircrafts
+        link: "Publications/Aircraft-Navigation/Paper-GPS-INS Integration for Autonomous Navigation of Aircrafts.pdf"
+        authors: S Agarwal, V V Unhelkar, <b>A Sharma</b>, A Kumar, H B Hablani
+        conference: International Conference on Navigation and Communication, 2012
+
       - title: Accurate Navigation of a UAV using Kalman Filter based GPS/INS Integration
         link: "Publications/Aircraft-Navigation/Paper-Accurate Navigation of a UAV using Kalman Filter based GPS INS Integration.pdf"
         slides: "Publications/Aircraft-Navigation/Presentation-Accurate Navigation of a UAV using Kalman Filter based GPS INS Integration.pdf"
         authors: <b>A Sharma</b>, P Kumar, S M Ratnaker, S E Talole
         conference: SAROD Conference, India, November, 2011 (Oral), Bangalore, India.
         conf-link: "https://taai.org.in/SAROD-2011/"
-
 
 distinctions:
     title: Awards and Honours
@@ -159,6 +163,25 @@ distinctions:
       - title: Selected amongst top 6 students from Mathematics camp (at HBCSE) to attend Mathematics Nurture Program at
                <u><a href="https://www.isical.ac.in/">
                <span style="color:brown;">Indian Statistical Institute Kolkata</span></a></u>, India in 2006
+
+courses:
+    title: Relevant Courses Undertaken
+    list:
+      - name: Machine Learning
+        lik: "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+
+      - name: Deep Learning
+        link: "https://www.youtube.com/watch?v=PlhFWT7vAEw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw"
+
+      - name: Convolutional Neural Networks
+        link: "https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
+
+      - name: Reinforcement Learning
+        link: "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ"
+
+      - name: Convex Optimization
+        link: "https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622"
+
 
 #skills:
 #    title: Skills &amp; Proficiency

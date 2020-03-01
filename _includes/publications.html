@@ -24,8 +24,6 @@
           <div class="publication-paper-title"> {{ publication.title }}</div>
         </li>
       </ul>
-    {% else %}
-    <a href="">paper</a>
     {% endif %}
     <ul>
       <div class="publication-authors">
@@ -34,6 +32,7 @@
     </ul>
     <ul>
       <div class="publication-conference">
+        {% if publication.conf-link %}
         <a href="{{ publication.conf-link}}">
           <u>
             <span style="color: brown;">
@@ -41,6 +40,9 @@
             </span>
           </u>
         </a>
+        {% else %}
+          {{ publication.conference }}
+        {% endif %}
       </div>
     </ul>
     <div class="publication-links">
@@ -50,11 +52,13 @@
             <u>[Paper]</u>
           </span>
         </a>
+        {% if publication.slides %}
         <a href="{{ site.baseurl }}/assets/theses/{{ publication.slides }}">
           <span style="color: brown;">
             <u>[Slides]</u>
           </span>
         </a>
+        {% endif %}
       </ul>
     </div>
   </div><!--//item-->
