@@ -36,7 +36,12 @@
     </div>
     {% if %experience.news %}
     <div class="company-news" style="text-align: justify">
-      <b><i>News</i></b>: {{ experience.news }}
+      <b><i>News</i></b>
+      <div class="item">
+        {% for update in experience.news %}
+          <ul><li>{{update}}</li></ul>
+        {% endfor %}
+      </div>
     </div>
     {% endif %}
   </div><!--//item-->

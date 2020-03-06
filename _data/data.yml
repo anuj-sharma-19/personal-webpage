@@ -73,10 +73,14 @@ new-experiences:
         - role: Research Intern
           time: December 2017 - June 2018
       work: Working on machine learning algorithms applied to perception for autonomous driving vehicles.
-      news: FiveAI recently carried out
-            <u><a href="https://trl.co.uk/news/news/streetwise-launches-uk%E2%80%99s-most-technically-advanced-commuter-research-trials-self-driving">
-            <span style="color:brown;">StreetWise</font></a></u> Trials - public road demonstration of its autonomous
-            vehicle on selected routes in London - to much press comment.
+      news:
+        - <u><a href="https://techcrunch.com/2020/03/03/five-the-self-driving-startup-raises-41m-and-pivots-into-b2b-away-from-building-its-own-fleet/?guccounter=1">
+          <span style="color:brown;">FiveAI recently raised $41M funding and pivots into B2B.</span></a></u>
+
+        - FiveAI carried out
+          <u><a href="https://trl.co.uk/news/news/streetwise-launches-uk%E2%80%99s-most-technically-advanced-commuter-research-trials-self-driving">
+          <span style="color:brown;">StreetWise</font></a></u> Trials - public road demonstration of its autonomous
+          vehicle on selected routes in London - to much press comment.
 
     - company: Aerial Delivery Research and Development Establishment (ADRDE), India
       link: "https://www.drdo.gov.in/labs-and-establishments/aerial-delivery-research-and-development-establishment-adrde"
