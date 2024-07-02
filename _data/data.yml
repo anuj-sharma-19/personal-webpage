@@ -5,7 +5,7 @@ sidebar:
 
     # Profile information
     name: Anuj Sharma
-    tagline: Senior Research Engineer
+    tagline: Lead Research Engineer
     avatar: profile_pic.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -31,15 +31,39 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently working as a Senior Research Engineer in Machine Learning and Computer Vision at
-      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u>, where we are building the
-      software to autonomously drive vehicles. Here, my work is primarily focussed on applying deep learning and
-      computer vision techniques for scene perception on autonomous vehicles. Prior to joining FiveAI, I visited the
+      I am currently working as Lead Research Engineer in Machine Learning and Computer Vision at
+      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u> in
+      Scene Understanding Team where we are building large offline models to fuse multi-modality data 
+      (cameras and lidar) for 3D object detection and tracking. The goal is to use these
+      large models for offline perception and generation of automatic labels that could be used to train the online
+      models. This work is published in <u><a href="http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"><span style="color: blue; ">CVPR 2024 Workshop on Autonomous Driving (WAD)</span></a></u>.
+
+      I have also led a team on the extension of the fusion model to use temporal information from a sequence of multi-modal frames, which
+      signifcantly improved the model's performance for 3D object detection.
+
+      I am currently also working on diffusion models to inject new objects jointly in cameras and lidar. The method
+      can be used to improve the training of the fusion models and also edit scenarios. 
+
+      At FiveAI, my work has been primarily focussed on applying deep learning and computer vision techniques for 
+      scene perception. In the past, I have extensively worked on 2D object detection and deployed it on FiveAI's
+      autonomous driving car which played a significant role in the successful trials of Five's car on the streets
+      of London in 2019. I have deployed several models for 2D and 3D detection on Five's platform for offline testing.
+      
+      I also have experience of utilizing unlabelled data to improve 3D object detection in lidar point cloud
+      using semi-supervised methods.
+      
+      Prior to joining FiveAI, I visited the
       <u><a href="http://www.robots.ox.ac.uk/~tvg/"><span style="color: brown; ">Torr Vision Group (University of Oxford)</span></a></u>
-      for my Masters Thesis.
+      for my Masters Thesis in 2017.
+
+      Before my Masters, I worked at ADRDE, India (2009-2016) as a Research Scientist to design and build Lighter-Than-Air systems.
+      My work focussed on dynamic modeling and control of aerial vehicles.
+
+      I had also developed the attitude control algorithm of a nano-satellite during my Bachelors studies in Aerospace
+      Engineering at Indian Institute of Technology Kanpur (2005-2009). The satellite was successfully launched in 2011.
 
 research-interests:
-    title: Machine Learning, Computer Vision, Robotics and Controls
+    title: Machine Learning, Computer Vision, Generative AI
 
 education:
     - degree: Masters Thesis
@@ -66,21 +90,15 @@ new-experiences:
     - company: FiveAI, Cambridge, UK
       link: "http://five.ai"
       positions:
+        - role: Lead Research Engineer
+          time: April 2023 - present
         - role: Senior Research Engineer
-          time: January 2020 - present
+          time: January 2020 - March 2023
         - role: Research Engineer
           time: November 2018 - December 2019
         - role: Research Intern
           time: December 2017 - June 2018
-      work: Working on machine learning algorithms applied to perception for autonomous driving vehicles.
-      news:
-        - <u><a href="https://techcrunch.com/2020/03/03/five-the-self-driving-startup-raises-41m-and-pivots-into-b2b-away-from-building-its-own-fleet/?guccounter=1">
-          <span style="color:brown;">FiveAI recently raised $41M funding and pivots into B2B.</span></a></u>
-
-        - FiveAI carried out
-          <u><a href="https://trl.co.uk/news/news/streetwise-launches-uk%E2%80%99s-most-technically-advanced-commuter-research-trials-self-driving">
-          <span style="color:brown;">StreetWise</font></a></u> Trials - public road demonstration of its autonomous
-          vehicle on selected routes in London - to much press comment.
+      work: Working on machine learning algorithms applied to scene perception.
 
     - company: Aerial Delivery Research and Development Establishment (ADRDE), India
       link: "https://www.drdo.gov.in/labs-and-establishments/aerial-delivery-research-and-development-establishment-adrde"
@@ -120,6 +138,12 @@ theses:
 publications:
     title: Publications
     papers:
+      - title: Lift-Attend-Splat Bird’s-eye-view camera-lidar fusion using transformers
+        link: "http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"
+        authors: J Gunn, Z Lenyk, <b>A Sharma</b>, A Donati, A Buburuzan, J Redford, R Mueller
+        conference: CVPR 2024 Workshop on Autonomous Driving Vehicles (WAD)
+        conf-link: "http://cvpr2024.wad.vision/"
+
       - title: Dynamic Modeling of Medium Sized Aerostat with Tether
         link: "Publications/Dynamic-Modeling/Paper-Dynamic Modeling of Medium Sized Aerostat with Tether.pdf"
         slides: "Publications/Dynamic-Modeling/Presentation-Dynamic Modeling of Medium Sized Aerostat with Tether.pdf"
@@ -168,23 +192,30 @@ distinctions:
                <u><a href="https://www.isical.ac.in/">
                <span style="color:brown;">Indian Statistical Institute Kolkata</span></a></u>, India in 2006
 
-courses:
-    title: Relevant Courses Undertaken
-    list:
-      - name: Machine Learning
-        lik: "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+#courses:
+#    title: Relevant Courses Undertaken
+#    list:
+#      - name: Machine Learning
+#        lik: "https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN"
+#
+#      - name: Deep Learning
+#        link: "https://www.youtube.com/watch?v=PlhFWT7vAEw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw"
+#
+#      - name: Convolutional Neural Networks
+#        link: "https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
+#
+#      - name: Reinforcement Learning
+#        link: "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ"
+#
+#      - name: Convex Optimization
+#        link: "https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622"
 
-      - name: Deep Learning
-        link: "https://www.youtube.com/watch?v=PlhFWT7vAEw&list=PLjK8ddCbDMphIMSXn-w1IjyYpHU3DaUYw"
 
-      - name: Convolutional Neural Networks
-        link: "https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk"
+skills:
+    title: Technical Skills
 
-      - name: Reinforcement Learning
-        link: "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ"
-
-      - name: Convex Optimization
-        link: "https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622"
+    toolset:
+      - name: Python, C++, PyTorch, PyTorch Lightning, TensorFlow, Cuda, LaTeX, Git, CI, AWS, Azure, Kubernetes
 
 
 #skills:
