@@ -41,8 +41,7 @@ career-profile:
       I have also led a team on the extension of the fusion model to use temporal information from a sequence of multi-modal frames, which
       signifcantly improved the model's performance for 3D object detection.
 
-      I am currently also working on diffusion models to inject new objects jointly in cameras and lidar. The method
-      can be used to improve the training of the fusion models and also edit scenarios. 
+      I am currently also working on diffusion models to inject 3D objects jointly in cameras and lidar.
 
       At FiveAI, my work has been primarily focussed on applying deep learning and computer vision techniques for 
       scene perception. In the past, I have extensively worked on 2D object detection and deployed it on FiveAI's
