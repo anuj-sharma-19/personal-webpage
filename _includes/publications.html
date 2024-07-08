@@ -25,6 +25,13 @@
         </li>
       </ul>
     {% endif %}
+    {% if publication.paper_link %}
+      <ul>
+        <li>
+          <div class="publication-paper-title"> {{ publication.title }}</div>
+        </li>
+      </ul>
+    {% endif %}
     <ul>
       <div class="publication-authors">
         {{ publication.authors }}
@@ -47,15 +54,15 @@
     </ul>
     <div class="publication-links">
       <ul>
-        {% if publication.link %}
-        <a href="{{ site.baseurl }}/assets/theses/{{ publication.link }}">
+        {% if publication.paper_link %}
+        <a href="{{ publication.paper_link }}">
           <span style="color: brown;">
             <u>[Paper]</u>
           </span>
         </a>
         {% endif %}
-        {% if publication.paper_link %}
-        <a href="{{ publication.paper_link }}">
+        {% if publication.link %}
+        <a href="{{ site.baseurl }}/assets/theses/{{ publication.link }}">
           <span style="color: brown;">
             <u>[Paper]</u>
           </span>
