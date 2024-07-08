@@ -139,7 +139,7 @@ publications:
     title: Publications
     papers:
       - title: Lift-Attend-Splat Bird’s-eye-view camera-lidar fusion using transformers
-        link: "http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"
+        paper_link: "http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"
         authors: J Gunn, Z Lenyk, <b>A Sharma</b>, A Donati, A Buburuzan, J Redford, R Mueller
         conference: CVPR 2024 Workshop on Autonomous Driving Vehicles (WAD)
         conf-link: "http://cvpr2024.wad.vision/"
