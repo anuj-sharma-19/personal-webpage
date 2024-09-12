@@ -32,7 +32,12 @@
 
     {% endfor %}
     <div class="work" style="text-align: justify">
-      {{ experience.work }}
+      <div class="item">
+        {% for update in experience.work %}
+          <ul><li>{{update}}</li></ul>
+        {% endfor %}
+      </div>
+<!--      {{ experience.work }}-->
     </div>
     {% if %experience.news %}
     <div class="company-news" style="text-align: justify">

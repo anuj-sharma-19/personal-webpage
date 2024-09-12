@@ -31,38 +31,71 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am currently working as Lead Research Engineer in Machine Learning and Computer Vision at
-      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u> in
-      Scene Understanding Team where we are building large offline models to fuse multi-modality data 
-      (cameras and lidar) for 3D object detection and tracking. The goal is to use these
-      large models for offline perception and generation of automatic labels that could be used to train the online
-      models. This work is published in <u><a href="http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"><span style="color: blue; ">CVPR 2024 Workshop on Autonomous Driving (WAD)</span></a></u>.
+      I have worked as Lead Research Engineer in Machine Learning and Computer Vision at
+      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u>, an autonomous vehicle startup,
+      acquired by <u><a href="https://www.bosch.com/"><span style="color: brown; ">Bosch</span></a></u> in 2022,
+      and am currently working on diffusion models for multi-modality data generation to inject 3D objects.
 
-      I have also led a team on the extension of the fusion model to use temporal information from a sequence of multi-modal frames, which
-      signifcantly improved the model's performance for 3D object detection.
-
-      I am currently also working on diffusion models to inject 3D objects jointly in cameras and lidar.
-
-      At FiveAI, my work has been primarily focussed on applying deep learning and computer vision techniques for 
-      scene perception. In the past, I have extensively worked on 2D object detection and deployed it on FiveAI's
-      autonomous driving car which played a significant role in the successful trials of Five's car on the streets
-      of London in 2019. I have deployed several models for 2D and 3D detection on Five's platform for offline testing.
+      I have previously worked on algorithms using deep learning for scene perception, focusing on object detection and
+      tracking, and have led several efforts on object detection in camera, lidar and radar and deployed models on FiveAI's
+      autonomous car's self-driving software stack and online cloud platform for offline testing and auto-labelling.
       
-      I also have experience of utilizing unlabelled data to improve 3D object detection in lidar point cloud
-      using semi-supervised methods.
-      
-      Prior to joining FiveAI, I visited the
-      <u><a href="http://www.robots.ox.ac.uk/~tvg/"><span style="color: brown; ">Torr Vision Group (University of Oxford)</span></a></u>
-      for my Masters Thesis in 2017.
+      My (collaborative) work on multi-modality fusion for object detection using transformers got published at
+      <u><a href="http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"><span style="color: blue; ">CVPR 2024 Workshop on Autonomous Driving (WAD)</span></a></u>,
+      and I have also led the project to extend this fusion model to utilize temporal information over a sequence of frames for detection and tracking.
 
-      Before my Masters, I worked at ADRDE, India (2009-2016) as a Research Scientist to design and build Lighter-Than-Air systems.
-      My work focussed on dynamic modeling and control of aerial vehicles.
+      Additionally, I have been a part of the
+      <u><a href="http://www.robots.ox.ac.uk/~tvg/"><span style="color: brown; ">Torr Vision Group, University of Oxford</span></a></u>
+      for my Masters Thesis for a brief period in 2017.
 
-      I had also developed the attitude control algorithm of a nano-satellite during my Bachelors studies in Aerospace
-      Engineering at Indian Institute of Technology Kanpur (2005-2009). The satellite was successfully launched in 2011.
+#      Before my Masters, I worked at ADRDE, India (2009-2016) as a Research Scientist to design and build
+#      Lighter-Than-Air systems. My work focussed on dynamic modeling and control of aerial vehicles.
+
+#      I had also developed the attitude control algorithm of a nano-satellite during my Bachelors studies in Aerospace
+#      Engineering at Indian Institute of Technology Kanpur (2005-2009). The satellite was successfully launched in 2011.
+
+#      I was responsible (component owner) for object detection stack on FiveAI's autonomous car self-driving software,
+#      which played a significant role in the successful trials of FiveAI's car on the streets of London in 2019. I have
+#      developed and deployed several models for 2D and 3D detection on FiveAI's online cloud platform for offline
+#      testing and auto-labeling.
+
+#      At FiveAI, I have worked on algorithms for scene perception, primarily focusing on object detection and tracking
+#      in 2D and 3D, fusing multi-modality data using transformers, using temporal information and foundation models and
+#      deployed the machine learning software on the autonomous car, and also on the online cloud platform at FiveAI.
+
+#      I am currently working as Lead Research Engineer in Machine Learning and Computer Vision at
+#      <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u> in
+#      Scene Understanding Team where we are building large offline models to fuse multi-modality data
+#      (cameras and lidar) for 3D object detection and tracking. The goal is to use these
+#      large models for offline perception and generation of automatic labels that could be used to train the online
+#      models. This work is published in <u><a href="http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"><span style="color: blue; ">CVPR 2024 Workshop on Autonomous Driving (WAD)</span></a></u>.
+
+#      I have also led a team on the extension of the fusion model to use temporal information from a sequence of multi-modal frames, which
+#      signifcantly improved the model's performance for 3D object detection.
+#
+#      Presently, I am working on diffusion models for multi-modality data generation to inject 3D objects jointly
+#      in cameras and lidar.
+
+##      At FiveAI, my work has been primarily focussed on applying deep learning and computer vision techniques for
+##      scene perception. In the past, I have extensively worked on 2D object detection and deployed it on FiveAI's
+##      autonomous driving car which played a significant role in the successful trials of Five's car on the streets
+##      of London in 2019. I have deployed several models for 2D and 3D detection on Five's platform for offline testing.
+#
+##      I also have experience of utilizing unlabelled data to improve 3D object detection in lidar point cloud
+##      using semi-supervised methods.
+#
+#      Prior to joining FiveAI, I visited the
+#      <u><a href="http://www.robots.ox.ac.uk/~tvg/"><span style="color: brown; ">Torr Vision Group (University of Oxford)</span></a></u>
+#      for my Masters Thesis in 2017.
+#
+#      Before my Masters, I worked at ADRDE, India (2009-2016) as a Research Scientist to design and build
+#      Lighter-Than-Air systems. My work focussed on dynamic modeling and control of aerial vehicles.
+
+#      I had also developed the attitude control algorithm of a nano-satellite during my Bachelors studies in Aerospace
+#      Engineering at Indian Institute of Technology Kanpur (2005-2009). The satellite was successfully launched in 2011.
 
 research-interests:
-    title: Machine Learning, Computer Vision, Generative AI
+    title: Artifical Intelligence, Machine Learning, Computer Vision, Generative AI, Foundation Models, Robotics
 
 education:
     - degree: Masters Thesis
@@ -71,14 +104,14 @@ education:
       details: |
         Describe
           - Bullet
-    - degree: <a href="https://www.universite-paris-saclay.fr/en/formation/master/electrical-engineering/m2-smart-aerospace-and-autonomous-systems"> Masters in Smart Aerospace and Autonomous Systems </a>
+    - degree: <a href="https://formations.univ-evry.fr/plugins/evry/odf/_content/subprogram-smart-aerospace-autonomous-systems-fr-fr.pdf"> Masters in Smart Aerospace and Autonomous Systems </a>
       university: <a href="https://www.univ-evry.fr/en/welcome-page.html">Université d'Évry Val-d'Essonne</a> and
                   <a href="https://www.universite-paris-saclay.fr/en"> University of Paris-Saclay, Paris, France </a>
       time: September 2016 - September 2017
       details: |
         Describe
           - Bullet
-    - degree: <a href="http://www.iitk.ac.in/aero/ugprog.html"> BTech in Aerospace Engineering </a>
+    - degree: BTech in Aerospace Engineering
       university: <a href="http://www.iitk.ac.in/"> Indian Institute of Technology Kanpur, India </a>
       time: July 2005 - June 2009
       details: |
@@ -90,36 +123,59 @@ new-experiences:
       link: "http://five.ai"
       positions:
         - role: Lead Research Engineer
-          time: April 2023 - present
-        - role: Senior Research Engineer
-          time: January 2020 - March 2023
-        - role: Research Engineer
-          time: November 2018 - December 2019
-        - role: Research Intern
-          time: December 2017 - June 2018
-      work: Working on machine learning algorithms applied to scene perception.
+          time: December 2017 - July 2024
+#        - role: Senior Research Engineer
+#          time: January 2020 - March 2023
+#        - role: Research Engineer
+#          time: November 2018 - December 2019
+#        - role: Research Intern
+#          time: December 2017 - June 2018
+      work:
+        - Led a project to extend multi-modality fusion to use temporal information over a 
+          sequence of frames using transformers.
+        - Led a cross-team project to track objects in multi-modality setup using transformer
+          based learnt tracking methods.
+        - Responsible for transformer based object detection in lidar, test-time augmentations and ensemble model 
+          development for multi-modality fusion on single frames for object detection.
+        - Developed and implemented multi-modality copy-paste augmentation strategy for multi-modality fusion which 
+          significantly improved the detection performance and helped to get amongst the SOTA models on nuScenes.
+        - Developed models using self-supervised and semi-supervised learning to leverage large amounts of unlabelled
+          real-world lidar point cloud data, which improved 3D detection performance in lidar by 10 %.
+        - Developed and deployed models and pipelines for object detection (in camera, lidar and radar) on FiveAI's 
+          online cloud platform for offline testing and auto-labelling.
+        - Developed novel ensemble methods improving 2D detection performance by 20 %.
+        - Component owner and developer of object detection software on FiveAI's autonomous self-driving car.
+          It played a significant role in the successful trials of FiveAI's self-driving autonomous car on the streets
+          of London in 2019.
+#        - Contributed to pipeline development for academic and large scale real-world autonomous driving datasets
 
     - company: Aerial Delivery Research and Development Establishment (ADRDE), India
       link: "https://www.drdo.gov.in/labs-and-establishments/aerial-delivery-research-and-development-establishment-adrde"
       positions:
-        - role: Scientist 'C'
-          time: July 2013 - August 2016
-        - role: Scientist 'B'
-          time: December 2009 - June 2013
-      work: Carried out aerodynamics design, 6-DOF (degree of freedom) dynamic modeling of unmanned aerial vehicles,
-            static and dynamic stability studies, development of flight control laws and in-depth analysis of post
-            flight data.
+        - role: Research Scientist
+          time: December 2009 - August 2016
+      work:
+        - Carried out aerodynamics design, 6-DOF (degree of freedom) dynamic modeling of unmanned aerial vehicles,
+          static and dynamic stability studies, development of flight control laws and in-depth analysis of post
+          flight data.
+        - Technical Lead of +2,000,000 US$ project on airship development -- (i) prepared the project document, 
+          (ii) presented the project before the higher-ups and secured the funding, (iii) drafted the requirements
+          of all the subsystems to be built, and (iv) led the development of the 1st successful flying prototype of the
+          airship.
 
     - company: Indian Institute of Technology Kanpur, India
       link: "http://www.iitk.ac.in/"
       positions:
         - role: Project Associate
           time: June 2009 - November 2009
-      work: Developed algorithms for attitude determination and control of the nano-satellite
-            (called JUGNU) developed by IIT-Kanpur.
-      news: JUGNU was successfully
-            <u><a href="https://en.wikipedia.org/wiki/Jugnu_(satellite)">
-            <span style="color:brown; ">launched in October, 2011</span></a></u>.
+      work:
+        - Developed algorithms for attitude determination and control of the nano-satellite developed by IIT-Kanpur.
+        - The satellite was successfully
+          <u><a href="https://en.wikipedia.org/wiki/Jugnu_(satellite)">
+          <span style="color:brown; ">launched in October, 2011</span></a></u>.
+#      news: JUGNU was successfully
+#            <u><a href="https://en.wikipedia.org/wiki/Jugnu_(satellite)">
+#            <span style="color:brown; ">launched in October, 2011</span></a></u>.
 
 theses:
     - title: Understanding Future Motion of Agents in Dynamic Scene using Deep Learning (Masters Thesis)
