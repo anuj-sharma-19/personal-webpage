@@ -138,7 +138,7 @@ new-experiences:
       link: "https://mistral.ai/"
       positions:
         - role: Research Engineer
-          time: December 2024 - March 2025
+          time: December 2024 - February 2025
       work:
         - Built tools for decontamination of data and automatic ingestion of new data annotation releases
         - Spedup evaluations and responsible for nightly evaluations of LLMs
