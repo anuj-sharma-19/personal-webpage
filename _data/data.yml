@@ -155,6 +155,7 @@ new-experiences:
 #        - role: Research Intern
 #          time: December 2017 - June 2018
       work:
+        - Worked on multimodal (camera + lidar) data generation for 3D object inpainting using stable diffusion.
         - Led a project to extend multi-modality fusion to use temporal information over a 
           sequence of frames using transformers.
         - Led a cross-team project to track objects in multi-modality setup using transformer
@@ -216,9 +217,13 @@ theses:
 publications:
     title: Publications
     papers:
+      - title: MObI: Multimodal Object Inpainting Using Diffusion Models
+        paper_link: "https://openaccess.thecvf.com/content/CVPR2025W/DDADS/papers/Buburuzan_MObI_Multimodal_Object_Inpainting_Using_Diffusion_Models_CVPRW_2025_paper.pdf"
+        authors: Alexandru Buburuzan, Anuj Sharma, John Redford, Puneet K. Dokania, Romain Mueller
+
       - title: Lift-Attend-Splat Bird’s-eye-view camera-lidar fusion using transformers
         paper_link: "http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"
-        authors: J Gunn, Z Lenyk, <b>A Sharma</b>, A Donati, A Buburuzan, J Redford, R Mueller
+        authors: James Gunn, Zygmunt Lenyk, Anuj Sharma, Andrea Donati, Alexandru Buburuzan, John Redford, Romain Mueller
         conference: CVPR 2024 Workshop on Autonomous Driving Vehicles (WAD)
         conf-link: "http://cvpr2024.wad.vision/"
 
