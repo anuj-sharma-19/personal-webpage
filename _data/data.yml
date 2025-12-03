@@ -31,15 +31,24 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I have worked as Lead Research Engineer in Machine Learning and Computer Vision at
+      Presently, I am working as a Member of Core Team, Member of Technical Staff in a Stealth AI Startup. I am building
+      an application using LLMs and agentic AI.
+
+      Previously, I worked at Mistral AI as a Research Engineer, and built tools to help speedup the research on Large
+      Language Models.
+
+      Earlier, I worked as Lead Research Engineer in Machine Learning and Computer Vision at
       <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u>, an autonomous vehicle startup,
       acquired by <u><a href="https://www.bosch.com/"><span style="color: brown; ">Bosch</span></a></u> in 2022,
       and am currently working on diffusion models for multi-modality data generation to inject 3D objects.
 
-      I have previously worked on algorithms using deep learning for scene perception, focusing on object detection and
+      I have worked on building algorithms using deep learning for scene perception, focusing on object detection and
       tracking, and have led several efforts on object detection in camera, lidar and radar and deployed models on FiveAI's
       autonomous car's self-driving software stack and online cloud platform for offline testing and auto-labelling.
-      
+
+      I have worked on multimodal (camera + lidar) data generation using stable diffusion. This work is published in
+      collaboration in CVPR 2025 Workshop.
+
       My (collaborative) work on multi-modality fusion for object detection using transformers got published at
       <u><a href="http://openaccess.thecvf.com/content/CVPR2024W/WAD/papers/Gunn_Lift-Attend-Splat_Birds-eye-view_Camera-lidar_Fusion_using_Transformers_CVPRW_2024_paper.pdf"><span style="color: blue; ">CVPR 2024 Workshop on Autonomous Driving (WAD)</span></a></u>,
       and I have also led the project to extend this fusion model to utilize temporal information over a sequence of frames for detection and tracking.
@@ -95,7 +104,7 @@ career-profile:
 #      Engineering at Indian Institute of Technology Kanpur (2005-2009). The satellite was successfully launched in 2011.
 
 research-interests:
-    title: Artifical Intelligence, Machine Learning, Computer Vision, Generative AI, Foundation Models, Robotics
+    title: Artifical Intelligence, Machine Learning, Computer Vision, Robotics, Foundation Models, Multimodal Generative AI
 
 education:
     - degree: Masters Thesis
