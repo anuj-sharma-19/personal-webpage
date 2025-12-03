@@ -39,14 +39,13 @@ career-profile:
 
       Earlier, I worked as Lead Research Engineer in Machine Learning and Computer Vision at
       <u><a href="https://five.ai/"><span style="color: brown; ">FiveAI</span></a></u>, an autonomous vehicle startup,
-      acquired by <u><a href="https://www.bosch.com/"><span style="color: brown; ">Bosch</span></a></u> in 2022,
-      and am currently working on diffusion models for multi-modality data generation to inject 3D objects.
+      acquired by <u><a href="https://www.bosch.com/"><span style="color: brown; ">Bosch</span></a></u> in 2022.
 
-      I have worked on building algorithms using deep learning for scene perception, focusing on object detection and
+      I have worked on building algorithms using deep learning for multimodal scene perception, focusing on object detection and
       tracking, and have led several efforts on object detection in camera, lidar and radar and deployed models on FiveAI's
       autonomous car's self-driving software stack and online cloud platform for offline testing and auto-labelling.
 
-      I have worked on multimodal (camera + lidar) data generation using stable diffusion. This work is published in
+      I have worked on multimodal (camera + lidar) data generation for 3D object inpainting using stable diffusion. This work is published in
       collaboration in CVPR 2025 Workshop.
 
       My (collaborative) work on multi-modality fusion for object detection using transformers got published at
@@ -128,6 +127,22 @@ education:
           - Bullet
 
 new-experiences:
+    - company: Stealth AI Startup, London, UK
+      positions:
+        - role: Member of Core Team, Member of Technical Staff
+          time: March 2025 - present
+      work:
+        - Providing consultancy services and building application using LLMs and agentic AI system
+
+    - company: Mistral AI, London, UK
+      link: "https://mistral.ai/"
+      positions:
+        - role: Research Engineer
+          time: December 2024 - March 2025
+      work:
+        - Built tools for decontamination of data and automatic ingestion of new data annotation releases
+        - Spedup evaluations and responsible for nightly evaluations of LLMs
+
     - company: FiveAI, Cambridge, UK
       link: "http://five.ai"
       positions:
