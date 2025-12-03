@@ -217,7 +217,7 @@ theses:
 publications:
     title: Publications
     papers:
-      - title: MObI: Multimodal Object Inpainting Using Diffusion Models
+      - title: MObI Multimodal Object Inpainting Using Diffusion Models
         paper_link: "https://openaccess.thecvf.com/content/CVPR2025W/DDADS/papers/Buburuzan_MObI_Multimodal_Object_Inpainting_Using_Diffusion_Models_CVPRW_2025_paper.pdf"
         authors: Alexandru Buburuzan, Anuj Sharma, John Redford, Puneet K. Dokania, Romain Mueller
 
